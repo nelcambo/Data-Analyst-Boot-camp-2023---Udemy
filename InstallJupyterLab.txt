@@ -1,0 +1,588 @@
+Microsoft Windows [Versión 10.0.19045.2788]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\nelcambo>pip install jupyterlab
+Collecting jupyterlab
+  Downloading jupyterlab-3.6.3-py3-none-any.whl (8.9 MB)
+     ---------------------------------------- 8.9/8.9 MB 21.0 MB/s eta 0:00:00
+Collecting ipython
+  Downloading ipython-8.12.0-py3-none-any.whl (796 kB)
+     ---------------------------------------- 796.4/796.4 kB 16.7 MB/s eta 0:00:00
+Collecting packaging
+  Downloading packaging-23.0-py3-none-any.whl (42 kB)
+     ---------------------------------------- 42.7/42.7 kB 1.0 MB/s eta 0:00:00
+Collecting tornado>=6.1.0
+  Downloading tornado-6.2-cp37-abi3-win_amd64.whl (425 kB)
+     ---------------------------------------- 425.3/425.3 kB 8.8 MB/s eta 0:00:00
+Collecting jupyter-core
+  Downloading jupyter_core-5.3.0-py3-none-any.whl (93 kB)
+     ---------------------------------------- 93.2/93.2 kB 1.1 MB/s eta 0:00:00
+Collecting jupyterlab-server~=2.19
+  Downloading jupyterlab_server-2.22.0-py3-none-any.whl (57 kB)
+     ---------------------------------------- 57.1/57.1 kB 3.1 MB/s eta 0:00:00
+Collecting jupyter-server<3,>=1.16.0
+  Downloading jupyter_server-2.5.0-py3-none-any.whl (366 kB)
+     ---------------------------------------- 366.8/366.8 kB 7.6 MB/s eta 0:00:00
+Collecting jupyter-ydoc~=0.2.3
+  Downloading jupyter_ydoc-0.2.3-py3-none-any.whl (5.9 kB)
+Collecting jupyter-server-ydoc~=0.8.0
+  Downloading jupyter_server_ydoc-0.8.0-py3-none-any.whl (11 kB)
+Collecting nbclassic
+  Downloading nbclassic-0.5.5-py3-none-any.whl (10.0 MB)
+     ---------------------------------------- 10.0/10.0 MB 30.4 MB/s eta 0:00:00
+Collecting notebook<7
+  Downloading notebook-6.5.4-py3-none-any.whl (529 kB)
+     ---------------------------------------- 529.8/529.8 kB 16.8 MB/s eta 0:00:00
+Collecting jinja2>=2.1
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+     ---------------------------------------- 133.1/133.1 kB 2.6 MB/s eta 0:00:00
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.2-cp311-cp311-win_amd64.whl (16 kB)
+Collecting anyio>=3.1.0
+  Downloading anyio-3.6.2-py3-none-any.whl (80 kB)
+     ---------------------------------------- 80.6/80.6 kB 2.3 MB/s eta 0:00:00
+Collecting argon2-cffi
+  Downloading argon2_cffi-21.3.0-py3-none-any.whl (14 kB)
+Collecting jupyter-client>=7.4.4
+  Downloading jupyter_client-8.1.0-py3-none-any.whl (102 kB)
+     ---------------------------------------- 102.9/102.9 kB 2.0 MB/s eta 0:00:00
+Collecting jupyter-events>=0.4.0
+  Downloading jupyter_events-0.6.3-py3-none-any.whl (18 kB)
+Collecting jupyter-server-terminals
+  Downloading jupyter_server_terminals-0.4.4-py3-none-any.whl (13 kB)
+Collecting nbconvert>=6.4.4
+  Downloading nbconvert-7.3.1-py3-none-any.whl (284 kB)
+     ---------------------------------------- 284.1/284.1 kB 3.5 MB/s eta 0:00:00
+Collecting nbformat>=5.3.0
+  Downloading nbformat-5.8.0-py3-none-any.whl (77 kB)
+     ---------------------------------------- 77.4/77.4 kB 4.2 MB/s eta 0:00:00
+Collecting prometheus-client
+  Downloading prometheus_client-0.16.0-py3-none-any.whl (122 kB)
+     ---------------------------------------- 122.5/122.5 kB 7.0 MB/s eta 0:00:00
+Collecting pywinpty
+  Downloading pywinpty-2.0.10-cp311-none-win_amd64.whl (1.4 MB)
+     ---------------------------------------- 1.4/1.4 MB 14.9 MB/s eta 0:00:00
+Collecting pyzmq>=24
+  Downloading pyzmq-25.0.2-cp311-cp311-win_amd64.whl (1.1 MB)
+     ---------------------------------------- 1.1/1.1 MB 14.2 MB/s eta 0:00:00
+Collecting send2trash
+  Downloading Send2Trash-1.8.0-py3-none-any.whl (18 kB)
+Collecting terminado>=0.8.3
+  Downloading terminado-0.17.1-py3-none-any.whl (17 kB)
+Collecting traitlets>=5.6.0
+  Downloading traitlets-5.9.0-py3-none-any.whl (117 kB)
+     ---------------------------------------- 117.4/117.4 kB 3.3 MB/s eta 0:00:00
+Collecting websocket-client
+  Downloading websocket_client-1.5.1-py3-none-any.whl (55 kB)
+     ---------------------------------------- 55.9/55.9 kB 2.9 MB/s eta 0:00:00
+Collecting platformdirs>=2.5
+  Downloading platformdirs-3.2.0-py3-none-any.whl (14 kB)
+Collecting pywin32>=300
+  Downloading pywin32-306-cp311-cp311-win_amd64.whl (9.2 MB)
+     ---------------------------------------- 9.2/9.2 MB 28.0 MB/s eta 0:00:00
+Collecting jupyter-server-fileid<1,>=0.6.0
+  Downloading jupyter_server_fileid-0.9.0-py3-none-any.whl (15 kB)
+Collecting ypy-websocket<0.9.0,>=0.8.2
+  Downloading ypy_websocket-0.8.4-py3-none-any.whl (10 kB)
+Collecting y-py<0.6.0,>=0.5.3
+  Downloading y_py-0.5.9-cp311-none-win_amd64.whl (554 kB)
+     ---------------------------------------- 554.8/554.8 kB 7.0 MB/s eta 0:00:00
+Collecting babel>=2.10
+  Downloading Babel-2.12.1-py3-none-any.whl (10.1 MB)
+     ---------------------------------------- 10.1/10.1 MB 26.8 MB/s eta 0:00:00
+Collecting json5>=0.9.0
+  Downloading json5-0.9.11-py2.py3-none-any.whl (19 kB)
+Collecting jsonschema>=4.17.3
+  Downloading jsonschema-4.17.3-py3-none-any.whl (90 kB)
+     ---------------------------------------- 90.4/90.4 kB 2.5 MB/s eta 0:00:00
+Collecting requests>=2.28
+  Downloading requests-2.28.2-py3-none-any.whl (62 kB)
+     ---------------------------------------- 62.8/62.8 kB 1.6 MB/s eta 0:00:00
+Collecting ipython-genutils
+  Downloading ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Collecting nest-asyncio>=1.5
+  Downloading nest_asyncio-1.5.6-py3-none-any.whl (5.2 kB)
+Collecting ipykernel
+  Downloading ipykernel-6.22.0-py3-none-any.whl (149 kB)
+     ---------------------------------------- 150.0/150.0 kB 2.2 MB/s eta 0:00:00
+Collecting notebook-shim>=0.1.0
+  Downloading notebook_shim-0.2.2-py3-none-any.whl (13 kB)
+Collecting backcall
+  Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting decorator
+  Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting jedi>=0.16
+  Downloading jedi-0.18.2-py2.py3-none-any.whl (1.6 MB)
+     ---------------------------------------- 1.6/1.6 MB 2.9 MB/s eta 0:00:00
+Collecting matplotlib-inline
+  Downloading matplotlib_inline-0.1.6-py3-none-any.whl (9.4 kB)
+Collecting pickleshare
+  Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30
+  Downloading prompt_toolkit-3.0.38-py3-none-any.whl (385 kB)
+     ---------------------------------------- 385.8/385.8 kB 8.2 MB/s eta 0:00:00
+Collecting pygments>=2.4.0
+  Downloading Pygments-2.15.0-py3-none-any.whl (1.1 MB)
+     ---------------------------------------- 1.1/1.1 MB 18.0 MB/s eta 0:00:00
+Collecting stack-data
+  Downloading stack_data-0.6.2-py3-none-any.whl (24 kB)
+Collecting colorama
+  Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting idna>=2.8
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     ---------------------------------------- 61.5/61.5 kB 1.6 MB/s eta 0:00:00
+Collecting sniffio>=1.1
+  Downloading sniffio-1.3.0-py3-none-any.whl (10 kB)
+Collecting parso<0.9.0,>=0.8.0
+  Downloading parso-0.8.3-py2.py3-none-any.whl (100 kB)
+     ---------------------------------------- 100.8/100.8 kB 6.0 MB/s eta 0:00:00
+Collecting attrs>=17.4.0
+  Downloading attrs-22.2.0-py3-none-any.whl (60 kB)
+     ---------------------------------------- 60.0/60.0 kB 1.6 MB/s eta 0:00:00
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Downloading pyrsistent-0.19.3-cp311-cp311-win_amd64.whl (62 kB)
+     ---------------------------------------- 62.7/62.7 kB 1.1 MB/s eta 0:00:00
+Collecting python-dateutil>=2.8.2
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ---------------------------------------- 247.7/247.7 kB 7.7 MB/s eta 0:00:00
+Collecting python-json-logger>=2.0.4
+  Downloading python_json_logger-2.0.7-py3-none-any.whl (8.1 kB)
+Collecting pyyaml>=5.3
+  Downloading PyYAML-6.0-cp311-cp311-win_amd64.whl (143 kB)
+     ---------------------------------------- 143.2/143.2 kB 1.2 MB/s eta 0:00:00
+Collecting rfc3339-validator
+  Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl (3.5 kB)
+Collecting rfc3986-validator>=0.1.1
+  Downloading rfc3986_validator-0.1.1-py2.py3-none-any.whl (4.2 kB)
+Collecting beautifulsoup4
+  Downloading beautifulsoup4-4.12.2-py3-none-any.whl (142 kB)
+     ---------------------------------------- 143.0/143.0 kB 2.8 MB/s eta 0:00:00
+Collecting bleach
+  Downloading bleach-6.0.0-py3-none-any.whl (162 kB)
+     ---------------------------------------- 162.5/162.5 kB 1.1 MB/s eta 0:00:00
+Collecting defusedxml
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting jupyterlab-pygments
+  Downloading jupyterlab_pygments-0.2.2-py2.py3-none-any.whl (21 kB)
+Collecting mistune<3,>=2.0.3
+  Downloading mistune-2.0.5-py2.py3-none-any.whl (24 kB)
+Collecting nbclient>=0.5.0
+  Downloading nbclient-0.7.3-py3-none-any.whl (72 kB)
+     ---------------------------------------- 72.4/72.4 kB 2.0 MB/s eta 0:00:00
+Collecting pandocfilters>=1.4.1
+  Downloading pandocfilters-1.5.0-py2.py3-none-any.whl (8.7 kB)
+Collecting tinycss2
+  Downloading tinycss2-1.2.1-py3-none-any.whl (21 kB)
+Collecting fastjsonschema
+  Downloading fastjsonschema-2.16.3-py3-none-any.whl (23 kB)
+Collecting wcwidth
+  Downloading wcwidth-0.2.6-py2.py3-none-any.whl (29 kB)
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.1.0-cp311-cp311-win_amd64.whl (96 kB)
+     ---------------------------------------- 96.7/96.7 kB 1.8 MB/s eta 0:00:00
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.15-py2.py3-none-any.whl (140 kB)
+     ---------------------------------------- 140.9/140.9 kB 2.1 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17
+  Downloading certifi-2022.12.7-py3-none-any.whl (155 kB)
+     ---------------------------------------- 155.3/155.3 kB 3.1 MB/s eta 0:00:00
+Collecting aiofiles<23,>=22.1.0
+  Downloading aiofiles-22.1.0-py3-none-any.whl (14 kB)
+Collecting aiosqlite<1,>=0.17.0
+  Downloading aiosqlite-0.18.0-py3-none-any.whl (15 kB)
+Collecting ypy-websocket<0.9.0,>=0.8.2
+  Downloading ypy_websocket-0.8.3-py3-none-any.whl (10 kB)
+  Downloading ypy_websocket-0.8.2-py3-none-any.whl (10 kB)
+Collecting argon2-cffi-bindings
+  Downloading argon2_cffi_bindings-21.2.0-cp36-abi3-win_amd64.whl (30 kB)
+Collecting comm>=0.1.1
+  Downloading comm-0.1.3-py3-none-any.whl (6.6 kB)
+Collecting debugpy>=1.6.5
+  Downloading debugpy-1.6.7-py2.py3-none-any.whl (4.9 MB)
+     ---------------------------------------- 4.9/4.9 MB 22.2 MB/s eta 0:00:00
+Collecting psutil
+  Downloading psutil-5.9.4-cp36-abi3-win_amd64.whl (252 kB)
+     ---------------------------------------- 252.5/252.5 kB 2.2 MB/s eta 0:00:00
+Collecting executing>=1.2.0
+  Downloading executing-1.2.0-py2.py3-none-any.whl (24 kB)
+Collecting asttokens>=2.1.0
+  Downloading asttokens-2.2.1-py2.py3-none-any.whl (26 kB)
+Collecting pure-eval
+  Downloading pure_eval-0.2.2-py3-none-any.whl (11 kB)
+Collecting six
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting fqdn
+  Downloading fqdn-1.5.1-py3-none-any.whl (9.1 kB)
+Collecting isoduration
+  Downloading isoduration-20.11.0-py3-none-any.whl (11 kB)
+Collecting jsonpointer>1.13
+  Downloading jsonpointer-2.3-py2.py3-none-any.whl (7.8 kB)
+Collecting uri-template
+  Downloading uri_template-1.2.0-py3-none-any.whl (10 kB)
+Collecting webcolors>=1.11
+  Downloading webcolors-1.13-py3-none-any.whl (14 kB)
+Collecting cffi>=1.0.1
+  Downloading cffi-1.15.1-cp311-cp311-win_amd64.whl (179 kB)
+     ---------------------------------------- 179.0/179.0 kB 3.6 MB/s eta 0:00:00
+Collecting soupsieve>1.2
+  Downloading soupsieve-2.4-py3-none-any.whl (37 kB)
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting pycparser
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+     ---------------------------------------- 118.7/118.7 kB 2.3 MB/s eta 0:00:00
+Collecting arrow>=0.15.0
+  Downloading arrow-1.2.3-py3-none-any.whl (66 kB)
+     ---------------------------------------- 66.4/66.4 kB 1.8 MB/s eta 0:00:00
+Installing collected packages: y-py, webencodings, wcwidth, send2trash, pywin32, pure-eval, pickleshare, mistune, json5, ipython-genutils, fastjsonschema, executing, backcall, websocket-client, webcolors, urllib3, uri-template, traitlets, tornado, tinycss2, soupsieve, sniffio, six, rfc3986-validator, pyzmq, pyyaml, pywinpty, python-json-logger, pyrsistent, pygments, pycparser, psutil, prompt-toolkit, prometheus-client, platformdirs, parso, pandocfilters, packaging, nest-asyncio, MarkupSafe, jupyterlab-pygments, jupyter-ydoc, jsonpointer, idna, fqdn, defusedxml, decorator, debugpy, colorama, charset-normalizer, certifi, babel, attrs, aiosqlite, aiofiles, ypy-websocket, terminado, rfc3339-validator, requests, python-dateutil, matplotlib-inline, jupyter-core, jsonschema, jinja2, jedi, comm, cffi, bleach, beautifulsoup4, asttokens, anyio, stack-data, nbformat, jupyter-server-terminals, jupyter-client, arrow, argon2-cffi-bindings, nbclient, isoduration, ipython, argon2-cffi, nbconvert, ipykernel, jupyter-events, jupyter-server, notebook-shim, jupyterlab-server, jupyter-server-fileid, nbclassic, jupyter-server-ydoc, notebook, jupyterlab
+  WARNING: The script send2trash.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script pyjson5.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script wsdump.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script pygmentize.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script normalizer.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script pybabel.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jupyter-migrate.exe, jupyter-troubleshoot.exe and jupyter.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jsonschema.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jupyter-trust.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jupyter-kernel.exe, jupyter-kernelspec.exe and jupyter-run.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jupyter-execute.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts ipython.exe and ipython3.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jupyter-dejavu.exe and jupyter-nbconvert.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jupyter-events.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jupyter-server.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jupyter-fileid.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jupyter-nbclassic-bundlerextension.exe, jupyter-nbclassic-extension.exe, jupyter-nbclassic-serverextension.exe and jupyter-nbclassic.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jupyter-bundlerextension.exe, jupyter-nbextension.exe, jupyter-notebook.exe and jupyter-serverextension.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jlpm.exe, jupyter-lab.exe, jupyter-labextension.exe and jupyter-labhub.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed MarkupSafe-2.1.2 aiofiles-22.1.0 aiosqlite-0.18.0 anyio-3.6.2 argon2-cffi-21.3.0 argon2-cffi-bindings-21.2.0 arrow-1.2.3 asttokens-2.2.1 attrs-22.2.0 babel-2.12.1 backcall-0.2.0 beautifulsoup4-4.12.2 bleach-6.0.0 certifi-2022.12.7 cffi-1.15.1 charset-normalizer-3.1.0 colorama-0.4.6 comm-0.1.3 debugpy-1.6.7 decorator-5.1.1 defusedxml-0.7.1 executing-1.2.0 fastjsonschema-2.16.3 fqdn-1.5.1 idna-3.4 ipykernel-6.22.0 ipython-8.12.0 ipython-genutils-0.2.0 isoduration-20.11.0 jedi-0.18.2 jinja2-3.1.2 json5-0.9.11 jsonpointer-2.3 jsonschema-4.17.3 jupyter-client-8.1.0 jupyter-core-5.3.0 jupyter-events-0.6.3 jupyter-server-2.5.0 jupyter-server-fileid-0.9.0 jupyter-server-terminals-0.4.4 jupyter-server-ydoc-0.8.0 jupyter-ydoc-0.2.3 jupyterlab-3.6.3 jupyterlab-pygments-0.2.2 jupyterlab-server-2.22.0 matplotlib-inline-0.1.6 mistune-2.0.5 nbclassic-0.5.5 nbclient-0.7.3 nbconvert-7.3.1 nbformat-5.8.0 nest-asyncio-1.5.6 notebook-6.5.4 notebook-shim-0.2.2 packaging-23.0 pandocfilters-1.5.0 parso-0.8.3 pickleshare-0.7.5 platformdirs-3.2.0 prometheus-client-0.16.0 prompt-toolkit-3.0.38 psutil-5.9.4 pure-eval-0.2.2 pycparser-2.21 pygments-2.15.0 pyrsistent-0.19.3 python-dateutil-2.8.2 python-json-logger-2.0.7 pywin32-306 pywinpty-2.0.10 pyyaml-6.0 pyzmq-25.0.2 requests-2.28.2 rfc3339-validator-0.1.4 rfc3986-validator-0.1.1 send2trash-1.8.0 six-1.16.0 sniffio-1.3.0 soupsieve-2.4 stack-data-0.6.2 terminado-0.17.1 tinycss2-1.2.1 tornado-6.2 traitlets-5.9.0 uri-template-1.2.0 urllib3-1.26.15 wcwidth-0.2.6 webcolors-1.13 webencodings-0.5.1 websocket-client-1.5.1 y-py-0.5.9 ypy-websocket-0.8.2
+
+[notice] A new release of pip available: 22.3.1 -> 23.0.1
+[notice] To update, run: C:\Users\nelcambo\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+
+C:\Users\nelcambo>C:\Users\nelcambo\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\program files\windowsapps\pythonsoftwarefoundation.python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\lib\site-packages (22.3.1)
+Collecting pip
+  Downloading pip-23.0.1-py3-none-any.whl (2.1 MB)
+     ---------------------------------------- 2.1/2.1 MB 14.6 MB/s eta 0:00:00
+Installing collected packages: pip
+  WARNING: The scripts pip.exe, pip3.11.exe and pip3.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed pip-23.0.1
+
+C:\Users\nelcambo>
+Microsoft Windows [Versión 10.0.19045.2788]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\nelcambo>pip install jupyterlab
+Collecting jupyterlab
+  Downloading jupyterlab-3.6.3-py3-none-any.whl (8.9 MB)
+     ---------------------------------------- 8.9/8.9 MB 21.0 MB/s eta 0:00:00
+Collecting ipython
+  Downloading ipython-8.12.0-py3-none-any.whl (796 kB)
+     ---------------------------------------- 796.4/796.4 kB 16.7 MB/s eta 0:00:00
+Collecting packaging
+  Downloading packaging-23.0-py3-none-any.whl (42 kB)
+     ---------------------------------------- 42.7/42.7 kB 1.0 MB/s eta 0:00:00
+Collecting tornado>=6.1.0
+  Downloading tornado-6.2-cp37-abi3-win_amd64.whl (425 kB)
+     ---------------------------------------- 425.3/425.3 kB 8.8 MB/s eta 0:00:00
+Collecting jupyter-core
+  Downloading jupyter_core-5.3.0-py3-none-any.whl (93 kB)
+     ---------------------------------------- 93.2/93.2 kB 1.1 MB/s eta 0:00:00
+Collecting jupyterlab-server~=2.19
+  Downloading jupyterlab_server-2.22.0-py3-none-any.whl (57 kB)
+     ---------------------------------------- 57.1/57.1 kB 3.1 MB/s eta 0:00:00
+Collecting jupyter-server<3,>=1.16.0
+  Downloading jupyter_server-2.5.0-py3-none-any.whl (366 kB)
+     ---------------------------------------- 366.8/366.8 kB 7.6 MB/s eta 0:00:00
+Collecting jupyter-ydoc~=0.2.3
+  Downloading jupyter_ydoc-0.2.3-py3-none-any.whl (5.9 kB)
+Collecting jupyter-server-ydoc~=0.8.0
+  Downloading jupyter_server_ydoc-0.8.0-py3-none-any.whl (11 kB)
+Collecting nbclassic
+  Downloading nbclassic-0.5.5-py3-none-any.whl (10.0 MB)
+     ---------------------------------------- 10.0/10.0 MB 30.4 MB/s eta 0:00:00
+Collecting notebook<7
+  Downloading notebook-6.5.4-py3-none-any.whl (529 kB)
+     ---------------------------------------- 529.8/529.8 kB 16.8 MB/s eta 0:00:00
+Collecting jinja2>=2.1
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+     ---------------------------------------- 133.1/133.1 kB 2.6 MB/s eta 0:00:00
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.2-cp311-cp311-win_amd64.whl (16 kB)
+Collecting anyio>=3.1.0
+  Downloading anyio-3.6.2-py3-none-any.whl (80 kB)
+     ---------------------------------------- 80.6/80.6 kB 2.3 MB/s eta 0:00:00
+Collecting argon2-cffi
+  Downloading argon2_cffi-21.3.0-py3-none-any.whl (14 kB)
+Collecting jupyter-client>=7.4.4
+  Downloading jupyter_client-8.1.0-py3-none-any.whl (102 kB)
+     ---------------------------------------- 102.9/102.9 kB 2.0 MB/s eta 0:00:00
+Collecting jupyter-events>=0.4.0
+  Downloading jupyter_events-0.6.3-py3-none-any.whl (18 kB)
+Collecting jupyter-server-terminals
+  Downloading jupyter_server_terminals-0.4.4-py3-none-any.whl (13 kB)
+Collecting nbconvert>=6.4.4
+  Downloading nbconvert-7.3.1-py3-none-any.whl (284 kB)
+     ---------------------------------------- 284.1/284.1 kB 3.5 MB/s eta 0:00:00
+Collecting nbformat>=5.3.0
+  Downloading nbformat-5.8.0-py3-none-any.whl (77 kB)
+     ---------------------------------------- 77.4/77.4 kB 4.2 MB/s eta 0:00:00
+Collecting prometheus-client
+  Downloading prometheus_client-0.16.0-py3-none-any.whl (122 kB)
+     ---------------------------------------- 122.5/122.5 kB 7.0 MB/s eta 0:00:00
+Collecting pywinpty
+  Downloading pywinpty-2.0.10-cp311-none-win_amd64.whl (1.4 MB)
+     ---------------------------------------- 1.4/1.4 MB 14.9 MB/s eta 0:00:00
+Collecting pyzmq>=24
+  Downloading pyzmq-25.0.2-cp311-cp311-win_amd64.whl (1.1 MB)
+     ---------------------------------------- 1.1/1.1 MB 14.2 MB/s eta 0:00:00
+Collecting send2trash
+  Downloading Send2Trash-1.8.0-py3-none-any.whl (18 kB)
+Collecting terminado>=0.8.3
+  Downloading terminado-0.17.1-py3-none-any.whl (17 kB)
+Collecting traitlets>=5.6.0
+  Downloading traitlets-5.9.0-py3-none-any.whl (117 kB)
+     ---------------------------------------- 117.4/117.4 kB 3.3 MB/s eta 0:00:00
+Collecting websocket-client
+  Downloading websocket_client-1.5.1-py3-none-any.whl (55 kB)
+     ---------------------------------------- 55.9/55.9 kB 2.9 MB/s eta 0:00:00
+Collecting platformdirs>=2.5
+  Downloading platformdirs-3.2.0-py3-none-any.whl (14 kB)
+Collecting pywin32>=300
+  Downloading pywin32-306-cp311-cp311-win_amd64.whl (9.2 MB)
+     ---------------------------------------- 9.2/9.2 MB 28.0 MB/s eta 0:00:00
+Collecting jupyter-server-fileid<1,>=0.6.0
+  Downloading jupyter_server_fileid-0.9.0-py3-none-any.whl (15 kB)
+Collecting ypy-websocket<0.9.0,>=0.8.2
+  Downloading ypy_websocket-0.8.4-py3-none-any.whl (10 kB)
+Collecting y-py<0.6.0,>=0.5.3
+  Downloading y_py-0.5.9-cp311-none-win_amd64.whl (554 kB)
+     ---------------------------------------- 554.8/554.8 kB 7.0 MB/s eta 0:00:00
+Collecting babel>=2.10
+  Downloading Babel-2.12.1-py3-none-any.whl (10.1 MB)
+     ---------------------------------------- 10.1/10.1 MB 26.8 MB/s eta 0:00:00
+Collecting json5>=0.9.0
+  Downloading json5-0.9.11-py2.py3-none-any.whl (19 kB)
+Collecting jsonschema>=4.17.3
+  Downloading jsonschema-4.17.3-py3-none-any.whl (90 kB)
+     ---------------------------------------- 90.4/90.4 kB 2.5 MB/s eta 0:00:00
+Collecting requests>=2.28
+  Downloading requests-2.28.2-py3-none-any.whl (62 kB)
+     ---------------------------------------- 62.8/62.8 kB 1.6 MB/s eta 0:00:00
+Collecting ipython-genutils
+  Downloading ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Collecting nest-asyncio>=1.5
+  Downloading nest_asyncio-1.5.6-py3-none-any.whl (5.2 kB)
+Collecting ipykernel
+  Downloading ipykernel-6.22.0-py3-none-any.whl (149 kB)
+     ---------------------------------------- 150.0/150.0 kB 2.2 MB/s eta 0:00:00
+Collecting notebook-shim>=0.1.0
+  Downloading notebook_shim-0.2.2-py3-none-any.whl (13 kB)
+Collecting backcall
+  Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting decorator
+  Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting jedi>=0.16
+  Downloading jedi-0.18.2-py2.py3-none-any.whl (1.6 MB)
+     ---------------------------------------- 1.6/1.6 MB 2.9 MB/s eta 0:00:00
+Collecting matplotlib-inline
+  Downloading matplotlib_inline-0.1.6-py3-none-any.whl (9.4 kB)
+Collecting pickleshare
+  Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30
+  Downloading prompt_toolkit-3.0.38-py3-none-any.whl (385 kB)
+     ---------------------------------------- 385.8/385.8 kB 8.2 MB/s eta 0:00:00
+Collecting pygments>=2.4.0
+  Downloading Pygments-2.15.0-py3-none-any.whl (1.1 MB)
+     ---------------------------------------- 1.1/1.1 MB 18.0 MB/s eta 0:00:00
+Collecting stack-data
+  Downloading stack_data-0.6.2-py3-none-any.whl (24 kB)
+Collecting colorama
+  Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting idna>=2.8
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     ---------------------------------------- 61.5/61.5 kB 1.6 MB/s eta 0:00:00
+Collecting sniffio>=1.1
+  Downloading sniffio-1.3.0-py3-none-any.whl (10 kB)
+Collecting parso<0.9.0,>=0.8.0
+  Downloading parso-0.8.3-py2.py3-none-any.whl (100 kB)
+     ---------------------------------------- 100.8/100.8 kB 6.0 MB/s eta 0:00:00
+Collecting attrs>=17.4.0
+  Downloading attrs-22.2.0-py3-none-any.whl (60 kB)
+     ---------------------------------------- 60.0/60.0 kB 1.6 MB/s eta 0:00:00
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Downloading pyrsistent-0.19.3-cp311-cp311-win_amd64.whl (62 kB)
+     ---------------------------------------- 62.7/62.7 kB 1.1 MB/s eta 0:00:00
+Collecting python-dateutil>=2.8.2
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ---------------------------------------- 247.7/247.7 kB 7.7 MB/s eta 0:00:00
+Collecting python-json-logger>=2.0.4
+  Downloading python_json_logger-2.0.7-py3-none-any.whl (8.1 kB)
+Collecting pyyaml>=5.3
+  Downloading PyYAML-6.0-cp311-cp311-win_amd64.whl (143 kB)
+     ---------------------------------------- 143.2/143.2 kB 1.2 MB/s eta 0:00:00
+Collecting rfc3339-validator
+  Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl (3.5 kB)
+Collecting rfc3986-validator>=0.1.1
+  Downloading rfc3986_validator-0.1.1-py2.py3-none-any.whl (4.2 kB)
+Collecting beautifulsoup4
+  Downloading beautifulsoup4-4.12.2-py3-none-any.whl (142 kB)
+     ---------------------------------------- 143.0/143.0 kB 2.8 MB/s eta 0:00:00
+Collecting bleach
+  Downloading bleach-6.0.0-py3-none-any.whl (162 kB)
+     ---------------------------------------- 162.5/162.5 kB 1.1 MB/s eta 0:00:00
+Collecting defusedxml
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting jupyterlab-pygments
+  Downloading jupyterlab_pygments-0.2.2-py2.py3-none-any.whl (21 kB)
+Collecting mistune<3,>=2.0.3
+  Downloading mistune-2.0.5-py2.py3-none-any.whl (24 kB)
+Collecting nbclient>=0.5.0
+  Downloading nbclient-0.7.3-py3-none-any.whl (72 kB)
+     ---------------------------------------- 72.4/72.4 kB 2.0 MB/s eta 0:00:00
+Collecting pandocfilters>=1.4.1
+  Downloading pandocfilters-1.5.0-py2.py3-none-any.whl (8.7 kB)
+Collecting tinycss2
+  Downloading tinycss2-1.2.1-py3-none-any.whl (21 kB)
+Collecting fastjsonschema
+  Downloading fastjsonschema-2.16.3-py3-none-any.whl (23 kB)
+Collecting wcwidth
+  Downloading wcwidth-0.2.6-py2.py3-none-any.whl (29 kB)
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.1.0-cp311-cp311-win_amd64.whl (96 kB)
+     ---------------------------------------- 96.7/96.7 kB 1.8 MB/s eta 0:00:00
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.15-py2.py3-none-any.whl (140 kB)
+     ---------------------------------------- 140.9/140.9 kB 2.1 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17
+  Downloading certifi-2022.12.7-py3-none-any.whl (155 kB)
+     ---------------------------------------- 155.3/155.3 kB 3.1 MB/s eta 0:00:00
+Collecting aiofiles<23,>=22.1.0
+  Downloading aiofiles-22.1.0-py3-none-any.whl (14 kB)
+Collecting aiosqlite<1,>=0.17.0
+  Downloading aiosqlite-0.18.0-py3-none-any.whl (15 kB)
+Collecting ypy-websocket<0.9.0,>=0.8.2
+  Downloading ypy_websocket-0.8.3-py3-none-any.whl (10 kB)
+  Downloading ypy_websocket-0.8.2-py3-none-any.whl (10 kB)
+Collecting argon2-cffi-bindings
+  Downloading argon2_cffi_bindings-21.2.0-cp36-abi3-win_amd64.whl (30 kB)
+Collecting comm>=0.1.1
+  Downloading comm-0.1.3-py3-none-any.whl (6.6 kB)
+Collecting debugpy>=1.6.5
+  Downloading debugpy-1.6.7-py2.py3-none-any.whl (4.9 MB)
+     ---------------------------------------- 4.9/4.9 MB 22.2 MB/s eta 0:00:00
+Collecting psutil
+  Downloading psutil-5.9.4-cp36-abi3-win_amd64.whl (252 kB)
+     ---------------------------------------- 252.5/252.5 kB 2.2 MB/s eta 0:00:00
+Collecting executing>=1.2.0
+  Downloading executing-1.2.0-py2.py3-none-any.whl (24 kB)
+Collecting asttokens>=2.1.0
+  Downloading asttokens-2.2.1-py2.py3-none-any.whl (26 kB)
+Collecting pure-eval
+  Downloading pure_eval-0.2.2-py3-none-any.whl (11 kB)
+Collecting six
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting fqdn
+  Downloading fqdn-1.5.1-py3-none-any.whl (9.1 kB)
+Collecting isoduration
+  Downloading isoduration-20.11.0-py3-none-any.whl (11 kB)
+Collecting jsonpointer>1.13
+  Downloading jsonpointer-2.3-py2.py3-none-any.whl (7.8 kB)
+Collecting uri-template
+  Downloading uri_template-1.2.0-py3-none-any.whl (10 kB)
+Collecting webcolors>=1.11
+  Downloading webcolors-1.13-py3-none-any.whl (14 kB)
+Collecting cffi>=1.0.1
+  Downloading cffi-1.15.1-cp311-cp311-win_amd64.whl (179 kB)
+     ---------------------------------------- 179.0/179.0 kB 3.6 MB/s eta 0:00:00
+Collecting soupsieve>1.2
+  Downloading soupsieve-2.4-py3-none-any.whl (37 kB)
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting pycparser
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+     ---------------------------------------- 118.7/118.7 kB 2.3 MB/s eta 0:00:00
+Collecting arrow>=0.15.0
+  Downloading arrow-1.2.3-py3-none-any.whl (66 kB)
+     ---------------------------------------- 66.4/66.4 kB 1.8 MB/s eta 0:00:00
+Installing collected packages: y-py, webencodings, wcwidth, send2trash, pywin32, pure-eval, pickleshare, mistune, json5, ipython-genutils, fastjsonschema, executing, backcall, websocket-client, webcolors, urllib3, uri-template, traitlets, tornado, tinycss2, soupsieve, sniffio, six, rfc3986-validator, pyzmq, pyyaml, pywinpty, python-json-logger, pyrsistent, pygments, pycparser, psutil, prompt-toolkit, prometheus-client, platformdirs, parso, pandocfilters, packaging, nest-asyncio, MarkupSafe, jupyterlab-pygments, jupyter-ydoc, jsonpointer, idna, fqdn, defusedxml, decorator, debugpy, colorama, charset-normalizer, certifi, babel, attrs, aiosqlite, aiofiles, ypy-websocket, terminado, rfc3339-validator, requests, python-dateutil, matplotlib-inline, jupyter-core, jsonschema, jinja2, jedi, comm, cffi, bleach, beautifulsoup4, asttokens, anyio, stack-data, nbformat, jupyter-server-terminals, jupyter-client, arrow, argon2-cffi-bindings, nbclient, isoduration, ipython, argon2-cffi, nbconvert, ipykernel, jupyter-events, jupyter-server, notebook-shim, jupyterlab-server, jupyter-server-fileid, nbclassic, jupyter-server-ydoc, notebook, jupyterlab
+  WARNING: The script send2trash.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script pyjson5.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script wsdump.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script pygmentize.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script normalizer.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script pybabel.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jupyter-migrate.exe, jupyter-troubleshoot.exe and jupyter.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jsonschema.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jupyter-trust.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jupyter-kernel.exe, jupyter-kernelspec.exe and jupyter-run.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jupyter-execute.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts ipython.exe and ipython3.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jupyter-dejavu.exe and jupyter-nbconvert.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jupyter-events.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jupyter-server.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jupyter-fileid.exe is installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jupyter-nbclassic-bundlerextension.exe, jupyter-nbclassic-extension.exe, jupyter-nbclassic-serverextension.exe and jupyter-nbclassic.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jupyter-bundlerextension.exe, jupyter-nbextension.exe, jupyter-notebook.exe and jupyter-serverextension.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts jlpm.exe, jupyter-lab.exe, jupyter-labextension.exe and jupyter-labhub.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed MarkupSafe-2.1.2 aiofiles-22.1.0 aiosqlite-0.18.0 anyio-3.6.2 argon2-cffi-21.3.0 argon2-cffi-bindings-21.2.0 arrow-1.2.3 asttokens-2.2.1 attrs-22.2.0 babel-2.12.1 backcall-0.2.0 beautifulsoup4-4.12.2 bleach-6.0.0 certifi-2022.12.7 cffi-1.15.1 charset-normalizer-3.1.0 colorama-0.4.6 comm-0.1.3 debugpy-1.6.7 decorator-5.1.1 defusedxml-0.7.1 executing-1.2.0 fastjsonschema-2.16.3 fqdn-1.5.1 idna-3.4 ipykernel-6.22.0 ipython-8.12.0 ipython-genutils-0.2.0 isoduration-20.11.0 jedi-0.18.2 jinja2-3.1.2 json5-0.9.11 jsonpointer-2.3 jsonschema-4.17.3 jupyter-client-8.1.0 jupyter-core-5.3.0 jupyter-events-0.6.3 jupyter-server-2.5.0 jupyter-server-fileid-0.9.0 jupyter-server-terminals-0.4.4 jupyter-server-ydoc-0.8.0 jupyter-ydoc-0.2.3 jupyterlab-3.6.3 jupyterlab-pygments-0.2.2 jupyterlab-server-2.22.0 matplotlib-inline-0.1.6 mistune-2.0.5 nbclassic-0.5.5 nbclient-0.7.3 nbconvert-7.3.1 nbformat-5.8.0 nest-asyncio-1.5.6 notebook-6.5.4 notebook-shim-0.2.2 packaging-23.0 pandocfilters-1.5.0 parso-0.8.3 pickleshare-0.7.5 platformdirs-3.2.0 prometheus-client-0.16.0 prompt-toolkit-3.0.38 psutil-5.9.4 pure-eval-0.2.2 pycparser-2.21 pygments-2.15.0 pyrsistent-0.19.3 python-dateutil-2.8.2 python-json-logger-2.0.7 pywin32-306 pywinpty-2.0.10 pyyaml-6.0 pyzmq-25.0.2 requests-2.28.2 rfc3339-validator-0.1.4 rfc3986-validator-0.1.1 send2trash-1.8.0 six-1.16.0 sniffio-1.3.0 soupsieve-2.4 stack-data-0.6.2 terminado-0.17.1 tinycss2-1.2.1 tornado-6.2 traitlets-5.9.0 uri-template-1.2.0 urllib3-1.26.15 wcwidth-0.2.6 webcolors-1.13 webencodings-0.5.1 websocket-client-1.5.1 y-py-0.5.9 ypy-websocket-0.8.2
+
+[notice] A new release of pip available: 22.3.1 -> 23.0.1
+[notice] To update, run: C:\Users\nelcambo\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+
+C:\Users\nelcambo>C:\Users\nelcambo\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\program files\windowsapps\pythonsoftwarefoundation.python.3.11_3.11.752.0_x64__qbz5n2kfra8p0\lib\site-packages (22.3.1)
+Collecting pip
+  Downloading pip-23.0.1-py3-none-any.whl (2.1 MB)
+     ---------------------------------------- 2.1/2.1 MB 14.6 MB/s eta 0:00:00
+Installing collected packages: pip
+  WARNING: The scripts pip.exe, pip3.11.exe and pip3.exe are installed in 'C:\Users\nelcambo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed pip-23.0.1
+
+C:\Users\nelcambo>
+
+
+
+https://stackoverflow.com/questions/16114391/adding-directory-to-sys-path-pythonpath 
+
+https://www.bing.com/search?pglt=171&q=how+to+add+directory+to+path+python&cvid=76ffc540726c480a857a5c70e3de9234&aqs=edge.1.0l9.14143j0j1&FORM=ANNTA1&PC=U531

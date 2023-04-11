@@ -1,3 +1,188 @@
 Get Ready to Be a Data Analyst.
 
 https://www.udemy.com/share/1056eU3@4Bp0q_V4fIXwqPmnvKXCGxw9PoXuPpK5jazOs1MCO8g4uZgtC_s_IgcLxTfWDpwIDg==/
+
+
+Python & SQL Programming course, full Guide for Data Analysts, Python & SQL Programmers also Python & SQL Developers in a simple and easy way with Python Examples, Python quizzes, Resources , Python OOP , Python Data Analysis, Python Database  Python Apps & Python Scripting to master Python 3 & SQL from zero to hero  For Data Analysis & Data Science in this course and from beginner to advanced.
+
+What you will learn in this course ?
+
+Learn Python by doing  Real World Projects in, Python Data Analysis, Python Database & Python Scripting.
+
+In this course you will learn how to Install Python 3.
+
+In this course you will learn how to use python IDLE.
+
+In this course you will learn how to choose Python IDE to learn coding.
+
+In this course you will learn how to Install Anaconda for Python coding.
+
+In this course you will learn how to use Online Jupyter for Python Programming.
+
+In this course you will learn how to use Python IDLE.
+
+In this course you will learn how What the difference between  Variables & Operators in Python.
+
+In this course you will learn Operators Types in Python.
+
+In this course you will learn Python Data Types.
+
+In this course you will learn String Functions & entries in Python.
+
+In this course you will learn how to use Input String Function in Python.
+
+In this course you will learn Python Data Structures.
+
+In this course you will learn how to create Lists & lists operations in Python.
+
+In this course you will learn how to create Dictionaries & Dictionaries operations in Python .
+
+In this course you will learn how to create Tuples & Tuples operations in Python.
+
+In this course you will learn and when to use For Loop in Python. to create Sets & Sets operations in Python.
+
+In this course you will learn how and when to use Control Flow and Loops in Python.
+
+In this course you will learn IF Statement and control flow in Python.
+
+In this course you will learn how and when to use For Loop in Python.
+
+In this course you will learn how and when to use While Loop in Python.
+
+In this course you will learn how to Handle Errors in your Python programs.
+
+In this course you will learn how and when to use Python Functions.
+
+In this course you will learn how and when to create functions in Python.
+
+In this course you will learn how and when to use Lambda Expression in Python.
+
+In this course you will learn how to create and use to Python Modules.
+
+Lear how to use Python to open files.
+
+Learn coding in Python by examples in this course.
+
+Apply what you will learn in Python through exercises in this course.
+
+Recap files to review what will learn in Python in this course.
+
+Why to master Python Programming Language by this course ?
+
+Python is a high level programming language, strong, elegant, and easy to learn.
+
+Python is Faster than R programming language when used for data science.
+
+Python Has lots of libraries which facilitate its use for data analysis.
+
+Python is Objective oriented programming Language so you can use objects when coding in python.
+
+Python is Free open source programming language.
+
+Python can be used for a large variety of programming tasks, such as for desktop applications, game programming and mobile development all of that can be done using Python programming Language.
+
+Python is a cross platform language, which means that code written for one operating system, such as Windows, will work well on Mac OS or Linux without making any changes to the Python code.
+
+
+
+Also you will learn many tips and tricks in PostgreSQL to query data through the following Topics covered in this course:
+
+Using Real World PostgreSQL Database Airlines Database.
+
+What is a Database
+
+SQL database for beginners.
+
+Installing PostgreSQL database.
+
+Creating Tables in database using SQL.
+
+Drop table from SQL database
+
+SELECT Statement use with SQL database data querying
+
+WHERE Clause use with SQL database data querying
+
+Operators used with Where clause in SQL database data querying .
+
+AND & OR use with SQL database data querying
+
+like use with SQL database data querying .
+
+Filtering Operators use with SQL database data querying .
+
+ORDER BY use with SQL database data querying .
+
+LIMIT use with SQL database data querying .
+
+DISTINCT use with SQL database data querying .
+
+Renaming Column in SQL database.
+
+Functions use with SQL database data querying .
+
+GROUP BY & HAVING Clauses use with database data querying .
+
+Aggregation Queries in SQL database.
+
+CASE Clause use with database data querying .
+
+Time & date data in SQL in database.
+
+Challenges for more SQL practice in this course.
+
+
+
+Why you Should Learn Structured Query Language (SQL)?
+
+
+
+SQL used to be originally created to enable non-IT professionals to query facts from datasets except wanting to ask a programmer for help. SQL aimed to be a whole lot greater effective than interfaces such as question through example, and greater bendy than prebuild reports. The goal was once to enable new approaches of inspecting and querying present data.
+
+
+
+SQL is a declarative language – the consumer tells the database which information is required and the database decides how to function the command. The emphasis is on the end result of the manner rather than the technique itself – the ends as an alternative than the means. This contrasts to the ancient way of programming, in which the user had to describe the statistics gathering step-by-step. However, the success and efficiency of SQL depends upon customers asking the right questions, and this is where SQL can help. SQL teaches database users how to pleasant phrase their questions in order to receive the fastest, most accurate solutions from the database.
+
+
+
+Besides being in a position to use SQL to query databases, gaining knowledge of it additionally encourages us to build effective mental fashions to suppose about data. We acquire and store more and greater facts – and being be successful of reasoning that statistics is a effective mental ability. Just suppose of all the records accrued by using large social networks or corporations that defend the free world!
+
+PostgreSQL is free, open and unlimited, PostgreSQL is on hand for free and it is open. It will by no means be bought. This makes it the exceptional device for getting to know about relational databases. PostgreSQL has very exhaustive and designated documentation. Although hard on the beginner – it is challenging to discover an easy entry factor – having mastered the first step, you will in no way run out of facts to further your knowledge.
+
+
+
+May also be the ultimate reply when your development stalls – which isn’t precisely comforting, but a lot better than knowing there is no viable answer.
+
+Relational databases are nonetheless the workhorses of the laptop industry. PostgreSQL has an advanced implementation of SQL and is very close to the SQL standard. So your know-how would be of use as it is transferable, so different SQL databases are reachable to you.
+
+
+
+It’s correct for your thought – and your career!
+
+
+
+Still want convincing that gaining knowledge of SQL is worth it?
+
+Well, in addition to developing new neural pathways in your brain, it could do wonders for your profession possibilities as it will make you a applicable candidate. Having “PostgreSQL knowledge” in your CV and on-line profile will almost clearly attract the attention of recruiters.
+
+What you’ll learn
+Using Real World PostgreSQL Database Airlines Database.
+Learn coding in Python by examples.
+How to Use Python & SQL to Analyze and visualize Data.
+Use Python to visualize Postgres Data Output and get your Conclusion about Data.
+Use Python bs4 & Pandas to Scrape a webpage, Analyze and visualize The Scraped Data.
+Use SQL to perform advanced techniques to retrieve data from databases.
+Use Python with SQL Postgres database.
+Use Python to load Postgres Data Output file.
+Learn Python & SQL by doing through Python Projects.
+Are there any course requirements or prerequisites?
+No primer programming experience needed for this course.
+Computer and internet.
+Your enthusiasm to learn Python & SQL For Data Analysis & Data Science.
+Everything else you need to learn Python Programming is already in this course.
+Who this course is for:
+Are you want to learn more about SQL, PostgreSQL, or data analysis using Python & SQL?
+Are you want to learn Python & SQL for data science?
+Are you ready for upcoming Python & SQL interview questions?
+Use Python bs4 & Pandas to Scrape a webpage, Analyze and visualize The Scraped Data.
+Are you welling to learn Python Pandas & Data Visualization?
